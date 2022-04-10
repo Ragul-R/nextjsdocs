@@ -23,6 +23,5 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.16.7"
-  },
-  "@adaptavant/aw-assets": "git+https://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:x-oauth-basic@github.com/ragul-r/Adaptavant/aw-assets.git"
+  }
 }
