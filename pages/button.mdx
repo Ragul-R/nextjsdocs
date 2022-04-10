@@ -1,0 +1,59 @@
+import React from 'react';
+import { Button } from "@adaptavant/aw-assets";
+import Showcase from '../components/Showcase'
+import TokenTable from '../components/TokenTable';
+
+import { BaseLayout } from "../layouts/AboutPage";
+//export default BaseLayout;
+
+<BaseLayout currentPage="Button">
+# Button
+
+Buttons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.
+
+<span>Install</span> `npm i @adapatvant/assets`  
+<span>Usage</span> `import { Button } from '@adapatvant/aw-assets';`
+
+### Example
+
+<Showcase packageName="button" />
+
+## Anatomy
+
+![Anatomy](https://storage.googleapis.com/full-assets/DesignSystem/button/Anatomy-1.png)
+
+1. Container - holds the content of the button.
+2. Icon (Optional) - a graphical sign promoting the action or activity of the button, positioned to the left or right.
+3. Label - describing action or activity in a word or short phrase.
+
+### Sizes
+
+![button-size](https://storage.googleapis.com/full-assets/DesignSystem/button/button-atom-sizes.png)
+
+### Atoms sizes
+
+![atom-size](https://storage.googleapis.com/full-assets/DesignSystem/button/button-atom-sizes.png)
+
+### Atoms spaces
+
+![atom-spaces](https://storage.googleapis.com/full-assets/DesignSystem/button/button-atom-spaces.png)
+
+### Button padding
+
+Padding refers to the space between UI elements. Padding is an alternative spacing method to keylines and is measured in increments of 8px or 4px.
+
+Padding can be measured both vertically and horizontally. We assume that the bigger the button, the bigger the padding
+
+![atom-spaces](https://storage.googleapis.com/full-assets/DesignSystem/button/button-padding.png)
+
+### Clickable area for mobile devices
+
+To make it more accisible to user, for all buttons clickable are should be consistent (not visible for small and regular buttons)
+
+![atom-spaces](https://storage.googleapis.com/full-assets/DesignSystem/button/button-mobile-spaces.png)
+
+### Design tokens
+
+<TokenTable packageName="button" />
+
+</BaseLayout>
