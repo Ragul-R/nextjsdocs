@@ -1,11 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
 import { css, Global, jsx } from '@emotion/react';
-import MDXProvider from '../components/MDXProvider';
-
-import { Button } from '@adaptavant/aw-assets';
 
 export const pages = {
     "get_started": { link: '', title: 'Get Started' },

@@ -1,7 +1,7 @@
 import React from 'react'
 import {MDXProvider} from '@mdx-js/react'
 
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
 import { css, jsx } from '@emotion/react';
 
 import SyntaxHighlighter from 'react-syntax-highlighter';
